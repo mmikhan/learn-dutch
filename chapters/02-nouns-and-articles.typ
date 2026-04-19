@@ -1,0 +1,47 @@
+= Nouns and articles
+
+Dutch has two words for *the*: `de` and `het`. This is one of the first things every learner notices.
+
+== The definite articles
+
+#let article-table = table(
+  columns: 3,
+  table.header[Article][When it is used][Examples],
+  [de], [most singular nouns and all plural nouns], [`de man`, `de tafel`, `de boeken`],
+  [het], [neuter singular nouns], [`het huis`, `het kind`, `het boek`],
+  [een], [indefinite article, meaning "a" or "an"], [`een man`, `een huis`],
+)
+
+#figure(caption: [Dutch articles at a glance], article-table)
+
+You often have to learn `de` or `het` together with each noun. There are patterns, but vocabulary and article usually need to be memorized as one unit.
+
+Two helpful beginner rules:
+
+- Plurals always take `de`: `het boek` -> `de boeken`
+- Diminutives in `-je` take `het`: `het huisje`, `het meisje`
+
+== Plurals
+
+Many Dutch plurals end in `-en` or `-s`.
+
+- `boek` -> `boeken`
+- `tafel` -> `tafels`
+- `student` -> `studenten`
+
+Spelling can change when a word becomes plural, but the most important point for now is to notice the plural endings and remember that plural nouns use `de`.
+
+== Adjectives before nouns
+
+Adjectives usually take `-e` before a noun:
+
+- `de grote stad`
+- `het mooie boek`
+- `een kleine tafel`
+
+One early exception matters a lot: with `een` + a singular `het` noun, the adjective often stays without `-e`.
+
+- `een klein huis`
+- `een mooi boek`
+
+That pattern looks strange at first, but you will see it often.
