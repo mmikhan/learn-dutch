@@ -13,6 +13,7 @@
   raw-text: "use-typst-default",
 )
 
+#include "chapters/00-grammar-terms.typ"
 #include "chapters/01-sounds-and-spelling.typ"
 #include "chapters/02-nouns-and-articles.typ"
 #include "chapters/03-pronouns-and-word-order.typ"

@@ -4,7 +4,7 @@ If you know how to ask simple questions and reuse a few high-frequency patterns,
 
 == Yes-no questions
 
-For yes-no questions, put the conjugated verb first:
+For yes-no questions, put the conjugated verb first. Here, conjugated just means the verb is already changed to match the subject.
 
 - `Woon je in Nederland?`
 - `Hebben jullie honger?`
@@ -44,6 +44,8 @@ These patterns are worth learning early because you can reuse them every day.
 - `Er is ...` / `Er zijn ...` -> `Er is koffie.` / `Er zijn veel mensen.`
 
 With modal verbs such as `willen`, `kunnen`, and `moeten`, the second verb usually goes to the end:
+
+That second verb stays in the infinitive, the basic dictionary form.
 
 - `Ik wil een boek kopen.`
 - `Wij kunnen morgen komen.`

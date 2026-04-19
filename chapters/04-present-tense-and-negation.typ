@@ -4,7 +4,7 @@ The present tense is enough to say a lot in Dutch. Once you can combine it with 
 
 == Regular present tense
 
-Most Dutch dictionary forms end in `-en`: `werken`, `leren`, `wonen`. To make the present tense, start from the stem.
+Most Dutch dictionary forms end in `-en`: `werken`, `leren`, `wonen`. This basic dictionary form is called the infinitive. To make the present tense, start from the stem, which is the base part that remains after removing the `-en`.
 
 - `werken` -> stem `werk`
 - `leren` -> stem `leer`

@@ -2,6 +2,8 @@
 
 Dutch sentence building feels much easier once you know the basic pronouns and the main word-order pattern.
 
+A pronoun is a short word that replaces a noun, like `ik`, `jij`, or `wij`.
+
 == Personal pronouns
 
 #let pronoun-table = table(
@@ -32,7 +34,7 @@ The basic pattern is:
 - `Wij leren Nederlands.`
 - `Hij werkt vandaag thuis.`
 
-The conjugated verb normally comes in the second position of a main clause.
+The conjugated verb, meaning the verb form that matches the subject, normally comes in the second position of a main clause. A main clause is a clause that can stand on its own as a full sentence.
 
 == Inversion
 
@@ -42,11 +44,11 @@ If you start with time, place, or another element, the verb still stays in secon
 - `In Amsterdam woont mijn zus.`
 - `Morgen gaan wij naar school.`
 
-This is called inversion, and it is a core Dutch pattern.
+This is called inversion, which simply means the verb comes before the subject because something else started the sentence.
 
 == Subordinate clauses
 
-In a subordinate clause, the conjugated verb often moves toward the end.
+In a subordinate clause, a clause attached to another clause, the conjugated verb often moves toward the end.
 
 - `Ik blijf thuis, omdat ik moe ben.`
 - `Hij zegt dat hij geen koffie drinkt.`

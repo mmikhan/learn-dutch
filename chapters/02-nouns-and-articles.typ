@@ -2,6 +2,8 @@
 
 Dutch has two words for *the*: `de` and `het`. This is one of the first things every learner notices.
 
+A noun names a person, place, thing, or idea. An article is the small word before it, such as `de`, `het`, or `een`.
+
 == The definite articles
 
 #let article-table = table(
