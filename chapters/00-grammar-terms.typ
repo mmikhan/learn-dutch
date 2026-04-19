@@ -18,6 +18,7 @@ Grammar books often use technical words. You do not need to master the labels, b
   [past participle], [the finished form used in the perfect tense: `gewerkt`, `geleerd`, `gegaan`],
   [perfect tense], [a past form built with an auxiliary verb plus a past participle: `ik heb gewerkt`, `zij is gekomen`],
   [simple past], [a one-word past form such as `was`, `had`, `ging`, or `werkte`],
+  [separable verb], [a verb with a fixed first part that can split off in some sentence patterns: `opstaan` -> `Ik sta op.`],
   [main clause], [an independent sentence or clause that can stand on its own: `Ik werk vandaag.`],
   [subordinate clause], [a clause attached to another clause, often after words like `dat` or `omdat`],
   [inversion], [a word-order change where the verb comes before the subject: `Vandaag werk ik thuis.`],

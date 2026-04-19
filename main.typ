@@ -20,3 +20,4 @@
 #include "chapters/04-present-tense-and-negation.typ"
 #include "chapters/05-questions-and-useful-patterns.typ"
 #include "chapters/06-past-tense-and-perfect-tense.typ"
+#include "chapters/07-separable-verbs.typ"
