@@ -11,7 +11,7 @@ const eslintConfig = defineConfig([
     "dist/**",
     "eslint.config.ts",
     ".prettierignore",
-    "lefthook.yml",
+    "lefthook.yaml",
     ".agents/**",
     "skills-lock.json",
   ]),
