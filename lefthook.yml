@@ -40,3 +40,12 @@
 #
 #     - script: "hello.go"
 #       runner: go run
+
+# Build commit messages
+prepare-commit-msg:
+  commands:
+    commitzen:
+      interactive: true
+      run: '[ "{2}" = "commit" ] && exit 0; bun run cz --hook # Or npx cz --hook'
+      env:
+        LEFTHOOK: 0

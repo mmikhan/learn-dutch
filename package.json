@@ -2,11 +2,21 @@
   "name": "learn-dutch",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "commit": "cz"
+  },
   "devDependencies": {
     "@types/bun": "latest",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "lefthook": "^2.1.6"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
