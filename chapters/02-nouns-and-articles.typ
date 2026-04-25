@@ -9,7 +9,10 @@ A noun names a person, place, thing, or idea. An article is the small word befor
 #let article-table = table(
   columns: 3,
   table.header[Article][When it is used][Examples],
-  [de], [most singular nouns and all plural nouns], [`de man`, `de tafel`, `de boeken`],
+  [de],
+  [most singular nouns and all plural nouns],
+  [`de man`, `de tafel`, `de boeken`],
+
   [het], [neuter singular nouns], [`het huis`, `het kind`, `het boek`],
   [een], [indefinite article, meaning "a" or "an"], [`een man`, `een huis`],
 )

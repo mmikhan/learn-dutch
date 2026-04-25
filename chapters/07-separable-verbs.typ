@@ -80,7 +80,10 @@ In the perfect tense, many separable verbs use `ge-` between the first part and 
   [opbellen], [opgebeld], [`Zij heeft haar docent opgebeld.`],
 )
 
-#figure(caption: [Separable verbs in the perfect tense], perfect-separable-table)
+#figure(
+  caption: [Separable verbs in the perfect tense],
+  perfect-separable-table,
+)
 
 This pattern is very common, so it is worth learning by example.
 
