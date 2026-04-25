@@ -6,6 +6,9 @@
     "commit": "cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.5.2",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@commitlint/types": "^20.5.0",
     "@types/bun": "latest",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",

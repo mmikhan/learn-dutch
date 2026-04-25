@@ -49,3 +49,9 @@ prepare-commit-msg:
       run: '[ "{2}" = "commit" ] && exit 0; bun run cz --hook # Or npx cz --hook'
       env:
         LEFTHOOK: 0
+
+# Validate commit messages
+commit-msg:
+  commands:
+    "lint commit message":
+      run: bun run commitlint --edit {1}
