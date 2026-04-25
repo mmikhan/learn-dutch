@@ -3,7 +3,7 @@ pre-commit:
   jobs:
     - name: format
       file_types: not executable
-      stage_fixes: true
+      stage_fixed: true
       run: bunx prettier {staged_files} --write
 
 # Build commit messages
@@ -13,7 +13,7 @@ prepare-commit-msg:
       interactive: true
       run: '[ "{2}" = "commit" ] && exit 0; bun run cz --hook # Or npx cz --hook'
       env:
-        LEFTHOOK: 0
+        LEFTHOOK: "0"
 
 # Validate commit messages
 commit-msg:
