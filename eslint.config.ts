@@ -9,6 +9,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "dist/**",
+    "eslint.config.ts",
+    ".prettierignore",
+    "lefthook.yml",
+    ".agents/**",
+    "skills-lock.json",
   ]),
 ]);
 
