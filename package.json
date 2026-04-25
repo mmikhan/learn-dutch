@@ -2,6 +2,7 @@
   "name": "learn-dutch",
   "module": "index.ts",
   "type": "module",
+  "version": "0.0.0",
   "scripts": {
     "format": "prettier --write .",
     "commit": "cz"
