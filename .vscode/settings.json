@@ -2,6 +2,17 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.fixAll.prettier": "always",
+    "source.fixAll.ts": "always",
+    "source.addMissingImports.ts": "always",
+    "source.sortImports": "always",
+    "source.removeUnusedImports": "always",
+    "source.removeUnused.ts": "always",
+    "source.organizeLinkDefinitions": "always"
+  },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "tinymist.formatterMode": "typstyle",
