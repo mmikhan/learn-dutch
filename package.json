@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint",
     "format": "prettier --write .",
-    "commit": "cz"
+    "typstyle": "typstyle -i main.typ chapters/ frontmatter/ -v",
+    "commit": "cz",
+    "setup": "cargo binstall typstyle"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.2",

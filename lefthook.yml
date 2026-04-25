@@ -11,6 +11,11 @@ pre-commit:
       stage_fixed: true
       run: bunx prettier {staged_files} --write
 
+    - name: typstyle
+      glob: "*.typ"
+      stage_fixed: true
+      run: typstyle -iv {staged_files}
+
 # Build commit messages
 prepare-commit-msg:
   commands:
