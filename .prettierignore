@@ -3,3 +3,6 @@ build
 coverage
 dist
 bun.lock
+.prettierignore
+*.typ
+*.bib
