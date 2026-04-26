@@ -17,9 +17,9 @@ concurrency:
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
-  bump-version:
+  release:
     runs-on: ubuntu-latest
-    name: "Bump version and create changelog with commitizen"
+    name: "Bump version, compile PDF, and create release"
     steps:
       - name: Checkout
         uses: actions/checkout@v6

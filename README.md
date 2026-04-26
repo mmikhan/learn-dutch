@@ -137,7 +137,7 @@ Test release workflow locally with `act`:
 act workflow_dispatch \
   --container-architecture linux/amd64 \
   -W .github/workflows/release.yaml \
-  -j bump-version
+  -j release
 ```
 
 `act` sets `ACT=true`, so workflow stays in dry-run mode locally and skips release publishing steps.
