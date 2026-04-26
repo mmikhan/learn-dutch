@@ -4,6 +4,7 @@ coverage
 dist
 bun.lock
 .prettierignore
+.gitignore
 *.typ
 *.bib
 .agents
