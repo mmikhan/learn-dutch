@@ -131,6 +131,17 @@ git pull --ff-only origin main
 git fetch --tags
 ```
 
+Test release workflow locally with `act`:
+
+```bash
+act workflow_dispatch \
+  --container-architecture linux/amd64 \
+  -W .github/workflows/release.yaml \
+  -j bump-version
+```
+
+`act` sets `ACT=true`, so workflow stays in dry-run mode locally and skips release publishing steps.
+
 ## Automation
 
 CI runs on pull requests, pushes to `main`, and merge queues. It checks:
@@ -138,3 +149,9 @@ CI runs on pull requests, pushes to `main`, and merge queues. It checks:
 - ESLint
 - Typst formatting with `typstyle --check`
 - Prettier formatting
+
+Run CI workflow locally with `act`:
+
+```bash
+act -W .github/workflows/ci.yaml -j check --container-architecture linux/amd64
+```
