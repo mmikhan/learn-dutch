@@ -27,4 +27,4 @@ jobs:
         run: typstyle --check -v main.typ chapters/ frontmatter/
 
       - name: "Format code"
-        run: bunx prettier . --check
+        run: bunx --bun prettier . --check
