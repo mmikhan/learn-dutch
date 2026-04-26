@@ -37,6 +37,7 @@ Example macOS setup:
 brew install bun typst commitizen
 cargo binstall typstyle
 bun install
+npx skills experimental_install
 ```
 
 ## Work on book locally
@@ -45,7 +46,10 @@ Install project dependencies:
 
 ```bash
 bun install
+npx skills experimental_install
 ```
+
+`npx skills experimental_install` restores project skills from `skills-lock.json` into `.agents/`.
 
 Format Typst files:
 
