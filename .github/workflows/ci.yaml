@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: ["main"]
+  merge_group:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: "Setup and install"
+        uses: ./.github/actions/setup
+
+      - name: "Run linters"
+        run: bun run lint
+
+      - name: "Format code"
+        run: bunx prettier . --check

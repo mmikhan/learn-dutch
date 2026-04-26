@@ -9,6 +9,7 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "dist/**",
+    ".github/**",
     "eslint.config.ts",
     ".prettierignore",
     "lefthook.yaml",
