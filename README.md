@@ -115,6 +115,22 @@ gh release create "$TAG" \
   --notes-file body.md
 ```
 
+## Release workflow
+
+Manual release workflow follows same shape as local release flow. On non-dry runs it:
+
+- bumps version and updates changelog with Commitizen
+- pushes bump commit and new Git tag
+- compiles `main.typ` to `dist/learn-dutch-${TAG}.pdf`
+- creates GitHub release and uploads compiled PDF
+
+After workflow finishes, local checkout is behind remote because release commit and tag were created on GitHub. Sync before more work:
+
+```bash
+git pull --ff-only origin main
+git fetch --tags
+```
+
 ## Automation
 
 CI runs on pull requests, pushes to `main`, and merge queues. It checks:
@@ -122,5 +138,3 @@ CI runs on pull requests, pushes to `main`, and merge queues. It checks:
 - ESLint
 - Typst formatting with `typstyle --check`
 - Prettier formatting
-
-Release workflow can create GitHub release entries from bumped versions and changelog output.
