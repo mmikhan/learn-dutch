@@ -1,5 +1,5 @@
 name: "Setup and install"
-description: "Set up Bun and install dependencies"
+description: "Set up Bun, typstyle, and install dependencies"
 
 runs:
   using: "composite"
@@ -8,6 +8,13 @@ runs:
       uses: oven-sh/setup-bun@v2
       with:
         bun-version-file: "package.json" # or ".tool-versions" or ".bun-version"
+
+    - name: "Set up cargo-binstall"
+      uses: cargo-bins/cargo-binstall@main
+
+    - name: "Install typstyle"
+      shell: bash
+      run: cargo-binstall typstyle --no-confirm
 
     - name: "Install dependencies"
       shell: bash
