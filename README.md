@@ -20,21 +20,23 @@ Local release flow:
 # one-time install
 brew install commitizen
 
-# build release artifact
-mkdir -p dist
-typst compile main.typ dist/main.pdf
-
 # bump version, update changelog, create bump commit + tag,
 # and write incremental release notes to body.md
 cz bump --changelog --changelog-to-stdout --git-output-to-stderr > body.md
+
+# build release artifact with versioned filename
+TAG="$(git describe --tags --abbrev=0)"
+ASSET="dist/learn-dutch-${TAG}.pdf"
+mkdir -p dist
+typst compile main.typ "$ASSET"
 
 # push bump commit + tag
 git push origin main
 git push origin --tags
 
 # create GitHub release and attach artifact
-gh release create "$(git describe --tags --abbrev=0)" \
-  dist/main.pdf \
+gh release create "$TAG" \
+  "$ASSET" \
   --notes-file body.md
 ```
 
