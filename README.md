@@ -1,25 +1,100 @@
 # learn-dutch
 
-To install dependencies:
+Beginner Dutch grammar book written in Typst.
+
+Current book title: **Basic Dutch Grammar**. Project focuses on short, practical explanations for early grammar topics like articles, pronouns, word order, present tense, negation, questions, past tense, and separable verbs.
+
+## Project layout
+
+```text
+main.typ              # book entrypoint
+chapters/             # chapter content
+frontmatter/          # preface and other front matter
+dist/                 # generated PDF artifacts
+.github/workflows/    # CI and release automation
+```
+
+Current chapters:
+
+- grammar terms
+- sounds and spelling
+- nouns and articles
+- pronouns and word order
+- present tense and negation
+- questions and useful patterns
+- past tense and perfect tense
+- separable verbs
+
+## Requirements
+
+- [Bun](https://bun.sh/)
+- [Typst](https://typst.app/)
+- [typstyle](https://github.com/Enter-tainer/typstyle)
+
+Example macOS setup:
+
+```bash
+brew install bun typst commitizen
+cargo binstall typstyle
+bun install
+```
+
+## Work on book locally
+
+Install project dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+Format Typst files:
 
 ```bash
-bun run index.ts
+bun run typstyle
 ```
 
-Local release flow:
-
-> `bun run commit` uses JS Commitizen for writing commits. `cz bump` below refers to Python Commitizen CLI.
+Format everything:
 
 ```bash
-# one-time install
-brew install commitizen
+bun run format
+```
 
+Run lint checks:
+
+```bash
+bun run lint
+typstyle --check -v main.typ chapters/ frontmatter/
+bunx prettier . --check
+```
+
+Build PDF locally:
+
+```bash
+mkdir -p dist
+typst compile main.typ dist/learn-dutch.pdf
+```
+
+## Commits
+
+This repo uses conventional commits with Commitizen, commitlint, and lefthook.
+
+Normal `git commit` triggers lefthook and opens Commitizen prompt automatically:
+
+```bash
+git commit
+```
+
+You can still run Commitizen directly if wanted:
+
+```bash
+bun run commit
+```
+
+## Local release flow
+
+> `bun run commit` uses JS Commitizen for writing commits. `cz bump` below refers to Python Commitizen CLI installed with Homebrew.
+
+```bash
 # bump version, update changelog, create bump commit + tag,
 # and write incremental release notes to body.md
 cz bump --changelog --changelog-to-stdout --git-output-to-stderr > body.md
@@ -40,4 +115,12 @@ gh release create "$TAG" \
   --notes-file body.md
 ```
 
-This project was created using `bun init` in bun v1.3.13. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+## Automation
+
+CI runs on pull requests, pushes to `main`, and merge queues. It checks:
+
+- ESLint
+- Typst formatting with `typstyle --check`
+- Prettier formatting
+
+Release workflow can create GitHub release entries from bumped versions and changelog output.
