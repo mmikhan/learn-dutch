@@ -57,6 +57,13 @@ Format Typst files:
 bun run typstyle
 ```
 
+Watch and rebuild PDF while editing:
+
+```bash
+mkdir -p dist
+bun run dev
+```
+
 Format everything:
 
 ```bash
@@ -76,6 +83,13 @@ Build PDF locally:
 ```bash
 mkdir -p dist
 typst compile main.typ dist/learn-dutch.pdf
+```
+
+Or with package script:
+
+```bash
+mkdir -p dist
+bun run build
 ```
 
 ## Commits
