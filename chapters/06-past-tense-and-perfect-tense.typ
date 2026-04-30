@@ -49,6 +49,32 @@ Many common Dutch past participles begin with `ge-`.
 
 At the beginning, it is better to learn common participles as vocabulary items than to worry about every spelling rule.
 
+A good next step is to learn them inside full sentences:
+
+*subject + auxiliary verb + time + extra information + past participle*
+
+- `Wij hebben gisteren Nederlands geleerd.`
+- `Wij` is the subject, the people doing the action.
+- `hebben` is the auxiliary verb, so it shows the perfect tense and changes to match the subject.
+- `gisteren` is the time word.
+- `Nederlands` is extra information, telling you what was learned.
+- `geleerd` is the past participle, carrying the main action and usually staying near the end.
+
+If you start with the time word, the auxiliary verb still stays in second position:
+
+*time + auxiliary verb + subject + extra information + past participle*
+
+- `Gisteren hebben wij Nederlands geleerd.`
+- `Gisteren` comes first for time.
+- `hebben` stays in second position.
+- `wij` moves behind the auxiliary verb.
+- `geleerd` still stays near the end as the past participle.
+
+You can reuse that frame with many other verbs:
+
+- `Ik heb gisteren koffie gekocht.`
+- `Hij is vanmorgen naar huis gegaan.`
+
 == `hebben` or `zijn`?
 
 Most verbs use `hebben` in the perfect tense:
