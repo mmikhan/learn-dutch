@@ -36,6 +36,17 @@ Many Dutch plurals end in `-en` or `-s`.
 
 Spelling can change when a word becomes plural, but the most important point for now is to notice the plural endings and remember that plural nouns use `de`.
 
+== Diminutives
+
+A diminutive is a noun form often used for something small, cute, friendly, or softer in tone. For example, `huis` becomes `huisje`, and `kop` becomes `kopje`.
+
+Common beginner uses:
+
+- small size: `huis` -> `huisje`
+- cute or affectionate tone: `hond` -> `hondje`
+- everyday natural phrases: `een kopje koffie`, `een stukje brood`
+- softer tone: `een momentje`, `een vraagje`
+
 == Adjectives before nouns
 
 Adjectives usually take `-e` before a noun:

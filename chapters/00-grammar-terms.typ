@@ -40,6 +40,9 @@ Grammar books often use technical words. You do not need to master the labels, b
   [simple past],
   [a one-word past form such as `was`, `had`, `ging`, or `werkte`],
 
+  [diminutive],
+  [a smaller or cuter form of a noun, often ending in `-je`: `huis` -> `huisje`, `meisje`],
+
   [separable verb],
   [a verb with a fixed first part that can split off in some sentence patterns: `opstaan` -> `Ik sta op.`],
 
