@@ -11,6 +11,12 @@ Grammar books often use technical words. You do not need to master the labels, b
   [a naming word for a person, thing, place, or idea: `boek`, `huis`, `student`],
 
   [article], [a small word before a noun such as `de`, `het`, or `een`],
+  [definite article],
+  [an article for a specific thing you mean: `de man`, `het boek`],
+
+  [indefinite article],
+  [an article for a non-specific thing, like "a" or "an": `een man`, `een boek`],
+
   [pronoun], [a short word that replaces a noun: `ik`, `jij`, `hij`, `wij`],
   [verb], [an action or state word: `werken`, `zijn`, `hebben`],
   [infinitive],
