@@ -2,7 +2,7 @@
 
 Beginner Dutch grammar book written in Typst.
 
-Current book title: **Basic Dutch Grammar**. Project focuses on short, practical explanations for early grammar topics like articles, pronouns, word order, present tense, negation, questions, past tense, and separable verbs.
+Current book title: **Basic Dutch Grammar**. Project focuses on short, practical explanations for early grammar topics like articles, pronouns, word order, present tense, negation, questions, past tense, separable verbs, and prepositions.
 
 ## Project layout
 
@@ -24,6 +24,7 @@ Current chapters:
 - questions and useful patterns
 - past tense and perfect tense
 - separable verbs
+- prepositions
 
 ## Requirements
 
