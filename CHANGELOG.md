@@ -1,3 +1,9 @@
+## 0.2.0 (2026-05-10)
+
+### Feat
+
+- **book**: add prepositions chapter
+
 ## 0.1.1 (2026-04-30)
 
 ### Refactor

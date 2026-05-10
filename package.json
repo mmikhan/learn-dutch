@@ -2,7 +2,7 @@
   "name": "learn-dutch",
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "packageManager": "bun@1.3.13",
   "scripts": {
     "dev": "typst watch main.typ dist/learn-dutch.pdf",
