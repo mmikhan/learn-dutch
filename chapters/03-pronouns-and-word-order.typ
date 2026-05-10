@@ -24,6 +24,88 @@ A pronoun is a short word that replaces a noun, like `ik`, `jij`, or `wij`.
 
 `je`, `we`, and `ze` are weak, common spoken and written forms. You will meet them very early.
 
+== Possessive pronouns
+
+Possessive pronouns show who something belongs to.
+
+- `mijn fiets` -> my bike
+- `jouw boek` -> your book
+- `zijn huis` -> his house
+- `haar tas` -> her bag
+
+#let possessive-table = table(
+  columns: 3,
+  table.header[Person][Dutch][English],
+  [1st singular], [mijn], [my],
+  [2nd singular informal], [je / jouw], [your],
+  [2nd singular formal], [uw], [your],
+  [3rd singular masculine], [zijn], [his],
+  [3rd singular feminine], [haar], [her],
+  [1st plural], [ons / onze], [our],
+  [2nd plural], [jullie], [your],
+  [3rd plural], [hun], [their],
+)
+
+#figure(caption: [Core possessive pronouns], possessive-table)
+
+`je` is a very common unstressed form of `jouw`. At the beginning, it is enough to recognize both.
+
+== Common reduced forms
+
+In informal speech and writing, some possessive pronouns often appear in reduced forms.
+
+#let reduced-possessive-table = table(
+  columns: 3,
+  table.header[Full form][Common reduced form][Example],
+  [mijn], [`m'n`], [`m'n fiets`],
+  [jouw / je], [`je`], [`je boek`],
+  [zijn], [`z'n`], [`z'n jas`],
+  [haar], [`d'r`], [`d'r tas`],
+)
+
+#figure(
+  caption: [Common reduced possessive forms in informal Dutch],
+  reduced-possessive-table,
+)
+
+These forms are very common in everyday Dutch. For beginner reading, it is enough to recognize that `m'n fiets`, `z'n jas`, and `d'r tas` mean the same thing as `mijn fiets`, `zijn jas`, and `haar tas`.
+
+== `ons` and `onze`
+
+The most important special case is `ons` and `onze`.
+
+- use `ons` before a singular `het` word: `ons huis`, `ons boek`
+- use `onze` before a `de` word or any plural: `onze tafel`, `onze boeken`
+
+This pattern is worth memorizing early because you will use it often.
+
+== Possessive pronouns in full sentences
+
+These words usually come before a noun:
+
+- `Mijn broer woont in Rotterdam.`
+- `Is jouw docent Nederlands?`
+- `Wij verkopen onze auto.`
+- `Hun kinderen leren snel.`
+
+Dutch also often uses `van` + pronoun when the noun is repeated or understood from context:
+
+- `Het is mijn huis.` -> this is my house
+- `Het huis is van mij.` -> the house is mine
+- `Is dat jouw fiets?` -> is that your bike?
+- `Ja, die fiets is van mij.` -> yes, that bike is mine
+
+So a very useful contrast is:
+
+- before a noun: `mijn huis`
+- after `van`: `van mij`
+
+You will also see them inside very simple sentence patterns:
+
+- `Waar is mijn tas?`
+- `Onze trein vertrekt om acht uur.`
+- `Zijn ouders wonen in Utrecht.`
+
 == Main clause word order
 
 The basic pattern is:
