@@ -16,6 +16,7 @@
 #include "chapters/00-grammar-terms.typ"
 #include "chapters/01-sounds-and-spelling.typ"
 #include "chapters/02-nouns-and-articles.typ"
+#include "chapters/02a-plural-reference.typ"
 #include "chapters/03-pronouns-and-word-order.typ"
 #include "chapters/04-present-tense-and-negation.typ"
 #include "chapters/05-questions-and-useful-patterns.typ"

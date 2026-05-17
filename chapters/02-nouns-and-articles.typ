@@ -44,6 +44,8 @@ But this is about sound, not only spelling. A word like `zoen` does not end in a
 
 Spelling can change when a word becomes plural, but the most important point for now is to notice the plural endings and remember that plural nouns use `de`.
 
+See the next page for a quick plural reference table grouped by common endings.
+
 == Diminutives
 
 A diminutive is a noun form often used for something small, cute, friendly, or softer in tone. For example, `huis` becomes `huisje`, and `kop` becomes `kopje`.

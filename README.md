@@ -19,6 +19,7 @@ Current chapters:
 - grammar terms
 - sounds and spelling
 - nouns and articles
+- plural reference
 - pronouns and word order
 - present tense and negation
 - questions and useful patterns
