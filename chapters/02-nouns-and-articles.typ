@@ -34,6 +34,14 @@ Many Dutch plurals end in `-en` or `-s`.
 - `tafel` -> `tafels`
 - `student` -> `studenten`
 
+Some nouns already end in an unstressed `-en` syllable in singular form. Those often take `-s` in plural, not another `-en`.
+
+- `jongen` -> `jongens`
+- `varken` -> `varkens`
+- `keuken` -> `keukens`
+
+But this is about sound, not only spelling. A word like `zoen` does not end in an unstressed `-en` syllable, so its plural is `zoenen`.
+
 Spelling can change when a word becomes plural, but the most important point for now is to notice the plural endings and remember that plural nouns use `de`.
 
 == Diminutives
