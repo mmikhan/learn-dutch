@@ -1,3 +1,12 @@
+## 0.4.0 (2026-05-17)
+
+### Feat
+
+- **nouns**: expand adjective examples
+- **terms**: add adjective to glossary
+- **nouns**: add plural reference page
+- **noun**: clarify plurals ending in -en
+
 ## 0.3.0 (2026-05-10)
 
 ### Feat
