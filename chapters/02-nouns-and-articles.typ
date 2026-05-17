@@ -65,6 +65,23 @@ Adjectives usually take `-e` before a noun:
 - `het mooie boek`
 - `een kleine tafel`
 
+#let adjective-table = table(
+  columns: 3,
+  table.header[Adjective][Common phrase][Meaning],
+  [groot], [`de grote stad`], [big, large],
+  [klein], [`een kleine tafel`], [small],
+  [mooi], [`het mooie boek`], [beautiful, nice],
+  [nieuw], [`de nieuwe fiets`], [new],
+  [oud], [`het oude huis`], [old],
+  [goed], [`een goede vraag`], [good],
+  [makkelijk], [`een makkelijke oefening`], [easy],
+  [moeilijk], [`een moeilijke vraag`], [difficult],
+  [duur], [`een dure jas`], [expensive],
+  [goedkoop], [`een goedkope fiets`], [cheap],
+)
+
+#figure(caption: [Common adjectives in natural noun phrases], adjective-table)
+
 One early exception matters a lot: with `een` + a singular `het` noun, the adjective often stays without `-e`.
 
 - `een klein huis`
