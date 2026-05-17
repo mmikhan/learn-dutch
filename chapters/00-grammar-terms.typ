@@ -21,6 +21,9 @@ Grammar books often use technical words. You do not need to master the labels, b
   [possessive pronoun],
   [a word that shows ownership before a noun: `mijn boek`, `jouw fiets`, `ons huis`],
 
+  [adjective],
+  [a describing word that gives more information about a noun: `groot`, `klein`, `mooi`],
+
   [verb], [an action or state word: `werken`, `zijn`, `hebben`],
   [infinitive],
   [the basic dictionary form of a verb, often ending in `-en`: `werken`, `leren`, `wonen`],
