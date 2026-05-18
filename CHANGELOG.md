@@ -1,3 +1,9 @@
+## 0.5.0 (2026-05-18)
+
+### Feat
+
+- **book**: add dutch time chapter
+
 ## 0.4.0 (2026-05-17)
 
 ### Feat
