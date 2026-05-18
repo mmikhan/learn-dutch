@@ -23,3 +23,4 @@
 #include "chapters/06-past-tense-and-perfect-tense.typ"
 #include "chapters/07-separable-verbs.typ"
 #include "chapters/08-prepositions.typ"
+#include "chapters/09-time-and-clock.typ"
