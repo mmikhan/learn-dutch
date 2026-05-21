@@ -24,6 +24,34 @@ A pronoun is a short word that replaces a noun, like `ik`, `jij`, or `wij`.
 
 `je`, `we`, and `ze` are weak, common spoken and written forms. You will meet them very early.
 
+== Object pronouns
+
+Object pronouns usually come after a verb. They show the person or thing that receives the action.
+
+#let object-table = table(
+  columns: 3,
+  table.header[Person][Dutch][English],
+  [1st singular], [mij / me], [me],
+  [2nd singular informal], [jou / je], [you],
+  [2nd singular formal], [u], [you],
+  [3rd singular masculine], [hem], [him],
+  [3rd singular feminine], [haar], [her],
+  [3rd singular neuter], [het], [it],
+  [1st plural], [ons], [us],
+  [2nd plural], [jullie], [you all],
+  [3rd plural], [hen / ze], [them],
+)
+
+#figure(caption: [Core object pronouns], object-table)
+
+`me`, `je`, and `ze` are very common unstressed forms. At the beginning, it is enough to recognize both the full and weak forms.
+
+These pronouns can be direct or indirect objects in simple sentences:
+
+- `Ik zie hem.` -> I see him
+- `Zij helpt ons.` -> she helps us
+- `Wij geven haar een boek.` -> we give her a book
+
 == Possessive pronouns
 
 Possessive pronouns show who something belongs to.
@@ -95,7 +123,22 @@ Dutch also often uses `van` + pronoun when the noun is repeated or understood fr
 - `Is dat jouw fiets?` -> is that your bike?
 - `Ja, die fiets is van mij.` -> yes, that bike is mine
 
-So a very useful contrast is:
+#let van-pronoun-table = table(
+  columns: 3,
+  table.header[Meaning][Before a noun][After `van`],
+  [my], [mijn], [van mij],
+  [your informal], [jouw / je], [van jou],
+  [your formal], [uw], [van u],
+  [his], [zijn], [van hem],
+  [her], [haar], [van haar],
+  [our], [ons / onze], [van ons],
+  [your plural], [jullie], [van jullie],
+  [their], [hun], [van hen],
+)
+
+#figure(caption: [Before a noun versus after `van`], van-pronoun-table)
+
+So a useful contrast is:
 
 - before a noun: `mijn huis`
 - after `van`: `van mij`
