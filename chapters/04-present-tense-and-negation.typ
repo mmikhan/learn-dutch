@@ -67,3 +67,31 @@ Use `niet` to negate adjectives, verbs, adverbs, prepositional phrases, and defi
 - `Ik lees het boek niet.`
 
 At first, the exact position of `niet` can feel slippery. The big beginner rule is simple: use `geen` with indefinite nouns, and use `niet` everywhere else.
+
+== Other common negative words
+
+Dutch also uses a few very common negative words that replace more positive words.
+
+#let negative-words-table = table(
+  columns: 3,
+  table.header[Positive word][Negative word][Meaning],
+  [iemand], [niemand], [someone -> no one],
+  [iets], [niets / niks], [something -> nothing],
+  [ergens], [nergens], [somewhere -> nowhere],
+  [ooit], [nooit], [ever -> never],
+)
+
+#figure(caption: [Common negative word pairs], negative-words-table)
+
+Examples:
+
+- `Er is iemand thuis.` -> someone is at home
+- `Er is niemand thuis.` -> no one is at home
+- `Ik zie iets.` -> I see something
+- `Ik zie niets.` / `Ik zie niks.` -> I see nothing
+- `Wij gaan ergens heen.` -> we are going somewhere
+- `Wij gaan nergens heen.` -> we are going nowhere
+- `Hij komt ooit terug.` -> he will come back sometime
+- `Hij komt nooit terug.` -> he never comes back
+
+`niks` is a very common informal form of `niets`.
