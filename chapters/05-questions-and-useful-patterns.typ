@@ -10,6 +10,18 @@ For yes-no questions, put the conjugated verb first. Here, conjugated just means
 - `Hebben jullie honger?`
 - `Is hij thuis?`
 
+With modal verbs, only the first verb is conjugated. The second verb goes to the end and stays in the infinitive.
+
+- `Kan ik u helpen?` -> can I help you?
+- `Wil je iets drinken?` -> do you want something to drink?
+
+Beginner rule: conjugated verb first, infinitive at the end.
+
+- `Ik help u.` -> one verb, so `help` is conjugated
+- `Ik kan u helpen.` -> two verbs, so `kan` is conjugated and `helpen` stays whole
+
+So in `Kan ik u helpen?`, `kan` is the singular present-tense form of `kunnen`, and `helpen` stays an infinitive at the end.
+
 == Question words
 
 #let question-table = table(
@@ -47,9 +59,19 @@ With modal verbs such as `willen`, `kunnen`, and `moeten`, the second verb usual
 
 That second verb stays in the infinitive, the basic dictionary form.
 
+So the pattern is:
+
+*conjugated modal verb + infinitive*
+
 - `Ik wil een boek kopen.`
 - `Wij kunnen morgen komen.`
 - `Hij moet vroeg werken.`
+
+The same pattern appears in questions:
+
+- `Kan ik u helpen?`
+- `Kunnen jullie morgen komen?`
+- `Moet hij vroeg werken?`
 
 == A simple study habit
 
