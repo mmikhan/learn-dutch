@@ -28,6 +28,9 @@ Grammar books often use technical words. You do not need to master the labels, b
   [infinitive],
   [the basic dictionary form of a verb, often ending in `-en`: `werken`, `leren`, `wonen`],
 
+  [negation],
+  [a way to make part of a sentence negative, often with `niet` or `geen`: `Ik werk niet.`, `Ik heb geen tijd.`],
+
   [stem],
   [the base part of the verb you use to build forms: `werken` -> `werk`, `leren` -> `leer`],
 

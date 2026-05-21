@@ -51,6 +51,8 @@ These two verbs appear everywhere:
 
 == `niet` and `geen`
 
+This part of Dutch grammar is called negation. Negation means making a sentence or part of a sentence negative.
+
 Use `geen` with nouns that have no article or after `een` when you mean *no* or *not a*.
 
 - `Ik heb geen auto.`
