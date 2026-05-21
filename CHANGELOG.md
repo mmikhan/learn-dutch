@@ -1,3 +1,12 @@
+## 0.6.0 (2026-05-21)
+
+### Feat
+
+- **book**: expand pronoun and negation help
+- **book**: clarify pronouns, modals, and negation
+- **book**: clarify pronouns and modal verbs
+- **book**: add object pronoun tables
+
 ## 0.5.0 (2026-05-18)
 
 ### Feat
