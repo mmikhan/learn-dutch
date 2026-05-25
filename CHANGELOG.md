@@ -1,3 +1,9 @@
+## 0.7.0 (2026-05-25)
+
+### Feat
+
+- **book**: expand modal verb reference
+
 ## 0.6.0 (2026-05-21)
 
 ### Feat
