@@ -55,7 +55,38 @@ These patterns are worth learning early because you can reuse them every day.
 - `Ik ga naar ...` -> `Ik ga naar mijn werk.`
 - `Er is ...` / `Er zijn ...` -> `Er is koffie.` / `Er zijn veel mensen.`
 
-With modal verbs such as `willen`, `kunnen`, and `moeten`, the second verb usually goes to the end:
+Common modal verbs to learn early:
+
+#let modal-meaning-table = table(
+  columns: 3,
+  table.header[Infinitive][Core meaning][Example],
+  [`kunnen`], [can / be able to], [`Ik kan komen.`],
+  [`moeten`], [must / have to], [`Ik moet gaan.`],
+  [`willen`], [want to], [`Ik wil Nederlands leren.`],
+  [`mogen`], [may / be allowed to], [`Jullie mogen hier zitten.`],
+  [`zullen`], [will / shall], [`Ik zal straks bellen.`],
+)
+
+#figure(caption: [Common Dutch modal verbs], modal-meaning-table)
+
+Here are the main present-tense forms for first, second, and third person singular and plural:
+
+#let modal-form-table = table(
+  columns: 7,
+  table.header[Person][Subject][`kunnen`][`moeten`][`willen`][`mogen`][`zullen`],
+  [1st singular], [ik], [kan], [moet], [wil], [mag], [zal],
+  [2nd singular], [jij / je], [kunt], [moet], [wilt], [mag], [zult],
+  [3rd singular], [hij / zij / het], [kan], [moet], [wil], [mag], [zal],
+  [1st plural], [wij / we], [kunnen], [moeten], [willen], [mogen], [zullen],
+  [2nd plural], [jullie], [kunnen], [moeten], [willen], [mogen], [zullen],
+  [3rd plural], [zij / ze], [kunnen], [moeten], [willen], [mogen], [zullen],
+)
+
+#figure(caption: [Present tense of common modal verbs], modal-form-table)
+
+For polite `u`, common forms are `u kunt`, `u wilt`, and `u zult`.
+
+With modal verbs such as `willen`, `kunnen`, `moeten`, `mogen`, and `zullen`, the second verb usually goes to the end:
 
 That second verb stays in the infinitive, the basic dictionary form.
 
@@ -66,12 +97,16 @@ So the pattern is:
 - `Ik wil een boek kopen.`
 - `Wij kunnen morgen komen.`
 - `Hij moet vroeg werken.`
+- `Jullie mogen hier zitten.`
+- `Wij zullen morgen vertrekken.`
 
 The same pattern appears in questions:
 
 - `Kan ik u helpen?`
 - `Kunnen jullie morgen komen?`
 - `Moet hij vroeg werken?`
+- `Mogen wij hier parkeren?`
+- `Zal ik u helpen?`
 
 == A simple study habit
 
