@@ -26,6 +26,44 @@ Two helpful beginner rules:
 - Plurals always take `de`: `het boek` -> `de boeken`
 - Diminutives in `-je` take `het`: `het huisje`, `het meisje`
 
+== `deze`, `die`, `dit`, and `dat`
+
+These words mean *this* and *that*. For beginners, the easiest way to choose them is to check whether the noun is a `de` word or a singular `het` word.
+
+#let demonstrative-table = table(
+  columns: 4,
+  table.header[Word][Use it with][Meaning][Example],
+  [`deze`],
+  [`de` words and all plurals],
+  [this / these],
+  [`deze tafel`, `deze boeken`],
+
+  [`die`],
+  [`de` words and all plurals],
+  [that / those],
+  [`die tafel`, `die boeken`],
+
+  [`dit`], [singular `het` words], [this], [`dit huis`, `dit boek`],
+  [`dat`], [singular `het` words], [that], [`dat huis`, `dat boek`],
+)
+
+#figure(
+  caption: [Choosing `deze`, `die`, `dit`, and `dat`],
+  demonstrative-table,
+)
+
+So the quick beginner pattern is:
+
+- singular `de` word -> `deze` / `die`: `deze stoel`, `die man`
+- singular `het` word -> `dit` / `dat`: `dit kind`, `dat raam`
+- plural noun -> `deze` / `die`: `deze kinderen`, `die stoelen`
+
+You can also use them without repeating the noun when the meaning is already clear:
+
+- `Dit is mijn boek.`
+- `Dat is een goed idee.`
+- `Welke fiets is van jou?` -> `Die.`
+
 == Plurals
 
 Many Dutch plurals end in `-en` or `-s`.
