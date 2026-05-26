@@ -1,3 +1,9 @@
+## 0.8.0 (2026-05-26)
+
+### Feat
+
+- **book**: add deze/die/dit/dat guide
+
 ## 0.7.0 (2026-05-25)
 
 ### Feat
