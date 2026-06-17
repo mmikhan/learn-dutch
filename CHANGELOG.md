@@ -1,3 +1,9 @@
+## 0.9.0 (2026-06-17)
+
+### Feat
+
+- **book**: add subordinate clause
+
 ## 0.8.0 (2026-05-26)
 
 ### Feat
